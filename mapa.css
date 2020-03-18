@@ -1,9 +1,17 @@
+.header-mapa {
+  background: #0E6655;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.header-mapa h4 {
+  color: white;
+  margin-right: 15px;
+}
 #maps {
-  margin-top: 12%;
-  border: ridge 3px #229954;
   width: 100%;
   min-width: 500px;
-  height: 600px;
+  height: 650px;
   box-sizing: border-box;
 }
 #map {
@@ -98,4 +106,8 @@ div#casos {
 }
 .danger div {
   margin-right: 7px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
 }
